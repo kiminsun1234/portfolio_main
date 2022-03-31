@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김인선의 Portfolio</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <header>
+        <div class="inner">
+            <nav>
+                <ul>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="intro">
+            <video src="./intro.mp4" autoplay muted></video>
+            <div class="inner">
+                <h2>신입 웹퍼블리셔<br><strong>김인선</strong>입니다.</h2>
+            </div>
+            <div class="mouse">
+                <span class="scroll"></span>
+            </div>
+            <blockquote>“매일같이 똑같은 일만 하는 것이 아닌
+                매일같이 성장하는 모습을 보여드리겠습니다”</blockquote>
+            </div>
+
+        <section class="About" id="About">
+            <h2 class="hidden">about</h2>
+                <div class="contents">
+                    <img src="img/photo.jpg" alt="photo">
+                    <div class="content">
+                        <h3>About me</h3>
+                        <ul>
+                            <li>
+                                <strong>거주지</strong><span>인천 연수구</span>
+                            </li>
+                            <li>
+                                <strong>나이</strong><span>1994.08.06</span>
+                            </li>
+                            <li>
+                                <strong>학력</strong><span>정석항공과학고등학교</span>
+                            </li>
+                            <li>
+                                <strong>자격증</strong>
+                                <ol>
+                                    <li>2018.12 1종보통운전면허</li>
+                                    <li>2012.07 용접기능사</li>
+                                </ol>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </section>
+
+        <section class="Skills" id="Skills">
+            <div class="inner">
+                <div class="charts">
+                    <ul>
+                        <li>
+                            <div class="chart">
+                                <h2 data-num="90">HTML</h2>
+                                <svg>
+                                    <circle cx="110" cy="110" r="100"></circle>
+                                </svg>
+                            </div>
+                            <span>html의 기본구조를 이해하며 웹표준 접근성을 고려하여 제작할 수 있습니다.</span>
+                        </li>
+                        <li>
+                            <div class="chart">
+                                <h2 data-num="80">CSS</h2>
+                                <svg>
+                                    <circle cx="110" cy="110" r="100"></circle>
+                                </svg>
+                            </div>
+                            <span>css의 기본구조를 이해하며
+                                transition,animation,flex등
+                                사용할 수 있습니다.</span>
+                        </li>
+                        <li>
+                            <div class="chart">
+                                <h2 data-num="50">Javascript</h2>
+                                <svg>
+                                    <circle cx="110" cy="110" r="100"></circle>
+                                </svg>
+                            </div>
+                            <span>javascript 기본구조를 알고
+                                기본적인 인터랙션들을 사용하여 메뉴를 만들수 있으며 계속 공부중입니다.</span>
+                        </li>
+                        <li>
+                            <div class="chart">
+                                <h2 data-num="60">jQuery</h2>
+                                <svg>
+                                    <circle cx="110" cy="110" r="100"></circle>
+                                </svg>
+                            </div>
+                            <span>jquery 기본구조를 알고 
+                                간단한 인터렉션을 줄 수 
+                                있으며 계속 공부중입니다.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="Portfolio" id="Portfolio">
+                <div class="first_pofol">
+                    <div class="inner">
+                        <div class="text" id="jin_text">
+                            <h2>01 진양산업</h2>
+                            <span>프로젝트 소개</span>
+                            <p>기존 사이트에서 반응형으로 리뉴얼하며 웹 표준을 바탕으로 다양한 시멘틱 마크업을 작성하여 float와 jquery를 이용하여 구현하였습니다</p>
+                            <b>참여도 : 100%</b>
+                            <ul class="button">
+                                <li><a href="https://kiminsun1234.github.io/jinyang/">WEB 바로가기</a></li>
+                                <li><a href="https://github.com/kiminsun1234/jinyang">Code 바로가기</a></li>
+                            </ul>
+                        </div>
+                        <div class="image" id="jin_img">
+                            <img src="img/Untitled-1.png" alt="진양산업">
+                        </div>
+                    </div>
+                </div>
+                <div class="second_pofol">
+                    <div class="inner">
+                        <div class="text" id="jeju_text">
+                            <h2>02 제주 공룡휴게소 박물관&동물농장</h2>
+                            <span>프로젝트 소개</span>
+                            <p>기존 사이트에서 반응형으로 리뉴얼하며 웹 표준을 바탕으로 다양한 시멘틱 마크업을 작성하여 flex와 javascript를 이용하여 구현하였습니다</p>
+                            <b>참여도 : 100%</b>
+                            <ul class="button">
+                                <li><a href="https://kiminsun1234.github.io/jejudinosaurmuseum/">WEB 바로가기</a></li>
+                                <li><a href="https://github.com/kiminsun1234/jejudinosaurmuseum">Code 바로가기</a></li>
+                            </ul>
+                        </div>
+                        <div class="image" id="jeju_img">
+                            <img src="img/Untitled-2.png" alt="제주 공룡휴게소 박물관&동물농장">
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <div class="box_color">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div class="contacts">
+            <div class="Idiom">
+                <p>如鳥數飛 여조삭비</p>
+                <span>새가 하늘을 날기 위해 자주 날갯짓하는 것과 같다는 뜻으로, 배우기를 쉬지 않고 끊임없이 연습하고 익힘.</span>
+            </div>
+            <div class="contact">
+                <h3>contact</h3>
+                <span>010.7334.3271</span>
+                <span>inseon12366@gmail.com</span>
+                <span>연락을 기다리겠습니다</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
